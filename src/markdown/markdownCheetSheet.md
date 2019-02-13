@@ -1,10 +1,12 @@
 Headers
+```
 # H1
 ## H2 
 ### H3
 #### H4
 ##### H5
-###### H6
+###### H6 
+```
 
 Alternatively, for H1 and H2, an underline-ish style:
 
@@ -14,7 +16,9 @@ Alt-H1
 Alt-H2
 ------
 
-Emphasis
+#  Emphasis
+
+```
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or __underscores__.
@@ -22,9 +26,9 @@ Strong emphasis, aka bold, with **asterisks** or __underscores__.
 Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
-
-Lists
-
+```
+# Lists
+```
 1. First ordered list item
 2. Another item
   * Unordered sub-list. 
@@ -37,8 +41,10 @@ Lists
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
+```
 
-Images
+# Images
+```
 Here's our logo (hover to see the title text):
 
 Inline-style: 
@@ -66,8 +72,9 @@ print s
 ```
 No language indicated, so no syntax highlighting. 
 But let's throw in a <b>tag</b>.
-
-Tables
+```
+# Tables
+```
 Colons can be used to align columns.
 
 | Tables        | Are           | Cool  |
@@ -82,8 +89,10 @@ Markdown | Less | Pretty
 --- | --- | ---
 *Still* | `renders` | **nicely**
 1 | 2 | 3
+```
 
-Blockquotes
+# Blockquotes
+```
 > Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
 
@@ -95,8 +104,10 @@ Inline HTML
   <dt>Markdown in HTML</dt>
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
+```
 
-Horizontal Rule
+#Horizontal Rule
+```
 Three or more...
 
 ---
@@ -110,16 +121,20 @@ Asterisks
 ___
 
 Underscores
+```
 
-Line Breaks
+# Line Breaks
+```
 Here's a line for us to start with.
 
 This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
 
 This line is also a separate paragraph, but...
 This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+```
 
-YouTube Videos
+# YouTube Videos
+```
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
@@ -128,3 +143,4 @@ TeX Mathematical Formulae
 $-b \pm \sqrt{b^2 - 4ac} \over 2a$
 $x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}$
 $\forall x \in X, \quad \exists y \leq \epsilon$
+```
