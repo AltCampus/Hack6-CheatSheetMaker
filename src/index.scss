@@ -12,3 +12,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+// =====================================
+// Dashboard
+// ===================================
+
+.dashboard {
+  a {
+    text-decoration: none;
+    border: 2px solid palevioletred;
+    padding: 7px 15px;
+    margin-left: 20px;
+    color: palevioletred;
+  }
+  a:hover {
+    background-color: palevioletred;
+    color: white;
+  }
+}

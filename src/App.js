@@ -4,25 +4,21 @@ import md from "./mark.md";
 import "./App.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
+import Github from "./components/Github";
+import Markdown from "./components/Markdown";
 
 class App extends Component {
-  state = {
-    md: null
-  };
-  componentDidMount = () => {
-    fetch(md)
-      .then(res => res.text())
-      .then(d => this.setState({ md: d }));
-  };
-
   render() {
     return (
       <BrowserRouter>
         <div className="App">
-          <h1>MarkDown</h1>
-          <ReactMarkdown source={this.state.md} />
+          <header>
+            <h2>cheatSheetMakers</h2>
+          </header>
           <Switch>
             <Route path="/" exact component={Dashboard} />
+            <Route path="/github" exact component={Github} />
+            <Route path="/md" exact component={Markdown} />
           </Switch>
         </div>
       </BrowserRouter>
