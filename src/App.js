@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import ReactMarkdown from "react-markdown";
 import md from "./mark.md";
 import "./App.css";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Dashboard from "./components/Dashboard";
 
 class App extends Component {
   state = {
@@ -15,10 +17,15 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <h1>MarkDown</h1>
-        <ReactMarkdown source={this.state.md} />
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <h1>MarkDown</h1>
+          <ReactMarkdown source={this.state.md} />
+          <Switch>
+            <Route path="/" exact component={Dashboard} />
+          </Switch>
+        </div>
+      </BrowserRouter>
     );
   }
 }
