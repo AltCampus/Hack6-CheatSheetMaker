@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import ReactMarkdown from "react-markdown";
 import md from "./mark.md";
-import "./App.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
 import Github from "./components/Github";
